@@ -17,6 +17,9 @@ function Template({ children }) {
         <NavLink to="/mobx" className="sv-mr--10" exact activeClassName="sv-color--red-500 sv-fw-bold">
           Mobx
         </NavLink>
+        <NavLink to="/api" className="sv-mr--10" exact activeClassName="sv-color--red-500 sv-fw-bold">
+          Mobx + Api
+        </NavLink>
       </header>
       <main style={{ height: 'calc(100vh - 65px)' }}>{children}</main>
     </div>

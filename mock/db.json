@@ -1,0 +1,28 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "descricao": "chocolate"
+    },
+    {
+      "id": 2,
+      "descricao": "morango"
+    },
+    {
+      "id": 3,
+      "descricao": "pudim"
+    },
+    {
+      "id": 4,
+      "descricao": "brigadeiro"
+    },
+    {
+      "id": 5,
+      "descricao": "cocada"
+    },
+    {
+      "id": 6,
+      "descricao": "goiabada"
+    }
+  ]
+}

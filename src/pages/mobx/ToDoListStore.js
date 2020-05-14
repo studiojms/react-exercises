@@ -1,6 +1,6 @@
 import { observable, configure, action } from 'mobx';
 
-configure({ enforceActions: 'observed' });
+configure({ enforceActions: 'always' });
 
 class ToDoListStore {
   @observable

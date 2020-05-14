@@ -6,6 +6,7 @@ import UsingState from './pages/UsingState';
 import Template from './Template';
 import TodoListState from './pages/TodoListState';
 import TodoListMobx from './pages/mobx/TodoListMobx';
+import TodoListMobxApi from './pages/mobx/api/TodoListMobxApi';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/state" exact component={UsingState} />
           <Route path="/todo" exact component={TodoListState} />
           <Route path="/mobx" exact component={TodoListMobx} />
+          <Route path="/api" exact component={TodoListMobxApi} />
         </Switch>
       </Template>
     </Router>
